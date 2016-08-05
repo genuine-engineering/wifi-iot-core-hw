@@ -23,6 +23,6 @@ Phần cứng được phát triển dựa trên phần mềm [Kicad](http://kic
 
 ## 3D
 
-![IOT Core HW 3D](assets/iot-core-hw-3d.jpeg)
+![IOT Core HW 3D](assets/iot-core-hw-3d.png)
 
 ## Gerber file 
