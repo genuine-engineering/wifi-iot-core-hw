@@ -1,4 +1,5 @@
 # Thông tin chung về dự án iot-core
+
 Phần cứng IoT core kết hợp STM32 + ESP8266
 - Chip ESP8266 có kết nối Wifi tuy nhiên lại có nhiều hạn chế về phần cứng như thiết các giao tiếp ngoại vi và USB, thiếu module đọc Analog chính xác, thiếu IO ... Trong khi việc phát triển Ứng dụng trên ESP8266 bắt buộc cần giao tiếp USB-Serial, chính vì vậy nhiều module trên thế giới xuất hiện thêm con chip USB-TTL, ngoài giá trị cho develop thì ít có giá trị trong thực tế. Thiết kế này sẽ sử dụng STM32 giá rẻ, bổ sung giao tiếp USB, hỗ trợ cho develop, và có các module thiếu hụt của ESP8266.
 - 
