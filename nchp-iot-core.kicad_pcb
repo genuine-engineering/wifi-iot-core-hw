@@ -14,8 +14,8 @@
 
   (page A4)
   (layers
-    (0 F.Cu signal)
-    (31 B.Cu signal)
+    (0 F.Cu signal hide)
+    (31 B.Cu signal hide)
     (33 F.Adhes user)
     (35 F.Paste user)
     (37 F.SilkS user)
@@ -283,7 +283,7 @@
     )
   )
 
-  (module Pin_Headers:Pin_Header_Straight_1x03 (layer F.Cu) (tedit 57A45459) (tstamp 579AFF54)
+  (module Pin_Headers:Pin_Header_Straight_1x03 (layer F.Cu) (tedit 57A5DF57) (tstamp 579AFF54)
     (at 137.16 88.9 180)
     (descr "Through hole pin header")
     (tags "pin header")
@@ -310,7 +310,7 @@
     )
   )
 
-  (module Pin_Headers:Pin_Header_Straight_1x03 (layer F.Cu) (tedit 57A4514B) (tstamp 579AFF42)
+  (module Pin_Headers:Pin_Header_Straight_1x03 (layer F.Cu) (tedit 57A5DF5A) (tstamp 579AFF42)
     (at 106.68 88.9 180)
     (descr "Through hole pin header")
     (tags "pin header")
@@ -785,7 +785,7 @@
     (tags "capacitor 1210")
     (path /5791DACF)
     (attr smd)
-    (fp_text reference C2 (at -2.54 0.0254 360) (layer F.SilkS)
+    (fp_text reference C2 (at -2.54 0.0254) (layer F.SilkS)
       (effects (font (size 0.3 0.3) (thickness 0.075)))
     )
     (fp_text value 10uF-50v (at 0 2.7 270) (layer F.Fab) hide
@@ -1263,7 +1263,7 @@
     (tags "resistor 0603")
     (path /5792131E)
     (attr smd)
-    (fp_text reference R2 (at 1.5621 0.0127 360) (layer F.SilkS)
+    (fp_text reference R2 (at 1.5621 0.0127) (layer F.SilkS)
       (effects (font (size 0.3 0.3) (thickness 0.075)))
     )
     (fp_text value 22 (at 0 1.9 270) (layer F.Fab) hide
@@ -1292,7 +1292,7 @@
     (tags "resistor 0603")
     (path /57921368)
     (attr smd)
-    (fp_text reference R3 (at 1.5621 -0.0127 360) (layer F.SilkS)
+    (fp_text reference R3 (at 1.5621 -0.0127) (layer F.SilkS)
       (effects (font (size 0.3 0.3) (thickness 0.075)))
     )
     (fp_text value 1.5K (at 0 1.9 270) (layer F.Fab) hide
@@ -1321,7 +1321,7 @@
     (tags "resistor 0603")
     (path /57921241)
     (attr smd)
-    (fp_text reference R4 (at 1.5494 -0.0127 540) (layer F.SilkS)
+    (fp_text reference R4 (at 1.5494 -0.0127 180) (layer F.SilkS)
       (effects (font (size 0.3 0.3) (thickness 0.075)))
     )
     (fp_text value 22 (at 0 1.9 270) (layer F.Fab) hide
@@ -1553,7 +1553,7 @@
     (tags "resistor 0603")
     (path /5792D88E)
     (attr smd)
-    (fp_text reference R12 (at -0.0127 -1.0795 450) (layer F.SilkS)
+    (fp_text reference R12 (at -0.0127 -1.0795 90) (layer F.SilkS)
       (effects (font (size 0.3 0.3) (thickness 0.075)))
     )
     (fp_text value 10K (at 0 1.9 270) (layer F.Fab) hide
@@ -1605,14 +1605,14 @@
     )
   )
 
-  (module crystal:crystal-HC49UP (layer F.Cu) (tedit 57A45A3B) (tstamp 57A3103F)
+  (module crystal:crystal-HC49UP (layer F.Cu) (tedit 57A5DF6C) (tstamp 57A3103F)
     (at 122.047 123.571)
     (descr CRYSTAL)
     (tags CRYSTAL)
     (path /5792515E)
     (attr smd)
     (fp_text reference Y1 (at 7.1374 1.6764) (layer F.SilkS)
-      (effects (font (size 0.75 0.5) (thickness 0.1)))
+      (effects (font (size 0.75 0.5) (thickness 0.125)))
     )
     (fp_text value 8MHz (at -1.905 3.556) (layer B.SilkS) hide
       (effects (font (size 1.27 1.27) (thickness 0.0889)) (justify mirror))
