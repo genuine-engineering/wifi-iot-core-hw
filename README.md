@@ -19,7 +19,7 @@ Phần cứng được phát triển dựa trên phần mềm [KiCad](http://kic
 
 ## Sơ đồ nguyên lý
 
-![IOT Core HW schematic](assets/iot-core-hw-schematic.pdf)
+![IOT Core HW Schematic](assets/iot-core-hw-schematic.pdf)
 
 ## Mạch in PCB
 
