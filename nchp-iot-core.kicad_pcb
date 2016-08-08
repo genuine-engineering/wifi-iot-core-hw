@@ -56,7 +56,7 @@
     (pad_drill 0.762)
     (pad_to_mask_clearance 0.2)
     (aux_axis_origin 139.827 76.073)
-    (visible_elements FFFFFF7F)
+    (visible_elements FFFFF77F)
     (pcbplotparams
       (layerselection 0x010a0_ffffffff)
       (usegerberextensions true)
@@ -80,7 +80,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory assets/))
   )
 
   (net 0 "")
@@ -785,7 +785,7 @@
     (tags "capacitor 1210")
     (path /5791DACF)
     (attr smd)
-    (fp_text reference C2 (at -2.54 0.0254 360) (layer F.SilkS)
+    (fp_text reference C2 (at -2.54 0.0254) (layer F.SilkS)
       (effects (font (size 0.3 0.3) (thickness 0.075)))
     )
     (fp_text value 10uF-50v (at 0 2.7 270) (layer F.Fab) hide
@@ -1263,7 +1263,7 @@
     (tags "resistor 0603")
     (path /5792131E)
     (attr smd)
-    (fp_text reference R2 (at 1.5621 0.0127 360) (layer F.SilkS)
+    (fp_text reference R2 (at 1.5621 0.0127) (layer F.SilkS)
       (effects (font (size 0.3 0.3) (thickness 0.075)))
     )
     (fp_text value 22 (at 0 1.9 270) (layer F.Fab) hide
@@ -1292,7 +1292,7 @@
     (tags "resistor 0603")
     (path /57921368)
     (attr smd)
-    (fp_text reference R3 (at 1.5621 -0.0127 360) (layer F.SilkS)
+    (fp_text reference R3 (at 1.5621 -0.0127) (layer F.SilkS)
       (effects (font (size 0.3 0.3) (thickness 0.075)))
     )
     (fp_text value 1.5K (at 0 1.9 270) (layer F.Fab) hide
@@ -1321,7 +1321,7 @@
     (tags "resistor 0603")
     (path /57921241)
     (attr smd)
-    (fp_text reference R4 (at 1.5494 -0.0127 540) (layer F.SilkS)
+    (fp_text reference R4 (at 1.5494 -0.0127 180) (layer F.SilkS)
       (effects (font (size 0.3 0.3) (thickness 0.075)))
     )
     (fp_text value 22 (at 0 1.9 270) (layer F.Fab) hide
@@ -1553,7 +1553,7 @@
     (tags "resistor 0603")
     (path /5792D88E)
     (attr smd)
-    (fp_text reference R12 (at -0.0127 -1.0795 450) (layer F.SilkS)
+    (fp_text reference R12 (at -0.0127 -1.0795 90) (layer F.SilkS)
       (effects (font (size 0.3 0.3) (thickness 0.075)))
     )
     (fp_text value 10K (at 0 1.9 270) (layer F.Fab) hide
