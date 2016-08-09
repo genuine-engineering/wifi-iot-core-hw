@@ -3,7 +3,7 @@
   (general
     (links 129)
     (no_connects 0)
-    (area 101.671667 74.608799 142.168334 138.8425)
+    (area 104.674999 74.829999 139.165001 135.990001)
     (thickness 1.6)
     (drawings 70)
     (tracks 945)
@@ -276,7 +276,7 @@
       (net 55 RXD))
     (pad 16 smd rect (at 16 0) (size 2.4 1.1) (layers F.Cu F.Paste F.Mask)
       (net 56 TXD))
-    (model /home/trinhduc/Public/lib/footprint/kicad-ESP8266/ESP8266.3dshapes/ESP-12.wrl
+    (model ${KIPRJMOD}/lib/ESP8266.3dshapes/ESP-12.wrl
       (at (xyz 0.03937007874015748 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz 0 0 0))
@@ -656,7 +656,7 @@
     (pad 2 smd rect (at 1.7 0 180) (size 0.9 1.7) (layers F.Cu F.Paste F.Mask)
       (net 2 GNDREF))
     (pad "" np_thru_hole circle (at 0 0 180) (size 0.8 0.8) (drill 0.8) (layers *.Cu *.Mask))
-    (model ${KIPRJMOD}/lib/Buttons_Switches_SMD.pretty/smd_push_xiejia_pb-11d06.wrl
+    (model ${KIPRJMOD}/lib/Buttons_Switches_SMD.3dshapes/smd_push_xiejia_pb-11d06.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.22 0.15 0.22))
       (rotate (xyz 0 0 90))
@@ -777,7 +777,7 @@
       (net 2 GNDREF))
     (pad 48 smd rect (at -2.75 -4.1 135) (size 0.3 1.2) (layers F.Cu F.Paste F.Mask)
       (net 4 +3V3))
-    (model /home/trinhduc/Public/lib/3D/walter/smd_lqfp/lqfp-48.wrl
+    (model ${KIPRJMOD}/lib/Housings_QFP:LQFP-48_7x7mm_Pitch0.3dshapes/lqfp-48.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -1676,7 +1676,7 @@
       (net 8 "Net-(C14-Pad2)"))
     (pad 2 smd rect (at 4.826 0) (size 5.334 1.9304) (layers F.Cu F.Paste F.Mask)
       (net 10 "Net-(C15-Pad2)"))
-    (model /home/trinhduc/Public/lib/3D/walter/crystal/crystal_hc-49-smd.wrl
+    (model ${KIPRJMOD}/lib/Crystal.3dshapes/crystal_hc-49-smd.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1773,7 +1773,7 @@
     (pad 2 smd rect (at 1.7 0 180) (size 0.9 1.7) (layers F.Cu F.Paste F.Mask)
       (net 2 GNDREF))
     (pad "" np_thru_hole circle (at 0 0 180) (size 0.8 0.8) (drill 0.8) (layers *.Cu *.Mask))
-    (model ${KIPRJMOD}/lib/Buttons_Switches_SMD.pretty/smd_push_xiejia_pb-11d06.wrl
+    (model ${KIPRJMOD}/lib/Buttons_Switches_SMD.3dshapes/smd_push_xiejia_pb-11d06.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.22 0.15 0.22))
       (rotate (xyz 0 0 90))
@@ -1843,7 +1843,7 @@
       (net 2 GNDREF))
     (pad "" np_thru_hole circle (at 1.89738 -2.1463) (size 0.79756 0.79756) (drill 0.79756) (layers *.Cu *.Mask F.SilkS))
     (pad "" np_thru_hole circle (at -1.89992 -2.14884) (size 0.79756 0.79756) (drill 0.79756) (layers *.Cu *.Mask F.SilkS))
-    (model /home/trinhduc/Public/lib/3D/walter/conn_pc/usb_B_micro_smd-2.wrl
+    (model ${KIPRJMOD}/lib/Usb_mini.3dshapes/usb_B_micro_smd-2.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
