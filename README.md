@@ -19,16 +19,16 @@ Phần cứng được phát triển dựa trên phần mềm [KiCad](http://kic
 
 ## Sơ đồ nguyên lý
 
-![IOT Core HW Schematic](assets/iot-core-hw-schematic.pdf)
+[![IOT Core HW Schematic](assets/iot-core-hw-sch.png)](assets/iot-core-hw-sch.svg)
 
 ## Mạch in PCB
 
-![IOT Core HW PCB](assets/iot-core-hw-PCB.png)
+[![IOT Core HW PCB](assets/iot-core-hw-pcb.png)](assets/iot-core-hw-pcb.svg)
 
 ## 3D
 
-![IOT Core HW 3D](assets/iot-core-hw-3d.png)
+[![IOT Core HW 3D](assets/iot-core-hw-3d.png)](assets/iot-core-hw-3d.pl)
 
 ## Gerber file 
 
-![IOT Core HW Gerber file](assets/Gerber)
+![IOT Core HW Gerber file](assets/gerber.zip)

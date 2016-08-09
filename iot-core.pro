@@ -1,6 +1,10 @@
-update=Thứ hai, 08 Tháng tám Năm 2016 09:45:06 ICT
+update=22/05/2015 07:44:53
 version=1
 last_client=kicad
+[general]
+version=1
+RootSch=
+BoardNm=
 [pcbnew]
 version=1
 LastNetListRead=
@@ -23,22 +27,9 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
-ERC_TestSimilarLabels=1
-[general]
-version=1
 [eeschema]
 version=1
-LibDir=lib/ESP8266.pretty
+LibDir=
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -69,6 +60,3 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=lib/Housings_QFP:LQFP-48_7x7mm_Pitch0.pretty/stm32
-LibName31=lib/ESP8266.pretty/ESP8266
-LibName32=lib/Buttons_Switches_SMD.pretty/device
