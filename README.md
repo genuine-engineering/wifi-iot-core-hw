@@ -31,4 +31,8 @@ Phần cứng được phát triển dựa trên phần mềm [KiCad](http://kic
 
 ## Gerber file 
 
-![IOT Core HW Gerber file](assets/gerber.zip)
+[IOT Core HW Gerber file](assets/gerber.zip)
+
+## Giấy phép CC-BY
+
+[![CC-BY](http://mirrors.creativecommons.org/presskit/buttons/88x31/png/by.png)](https://github.com/idleberg/Creative-Commons-Markdown/blob/spaces/4.0/by.markdown)
