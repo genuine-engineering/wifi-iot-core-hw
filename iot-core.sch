@@ -600,10 +600,10 @@ F 3 "" H 10600 1025 50  0000 C CNN
 	1    10600 1025
 	1    0    0    -1  
 $EndComp
-Text Label 10825 1400 2    60   ~ 12
-TXD
-Text Label 10825 1500 2    60   ~ 12
-RXD
+Text Label 10900 1400 2    60   ~ 12
+ESP_TXD
+Text Label 10875 1500 2    60   ~ 12
+ESP_RXD
 NoConn ~ 10575 1600
 NoConn ~ 10575 1700
 NoConn ~ 8775 1500
@@ -699,10 +699,10 @@ F 3 "" H 10850 1900 50  0000 C CNN
 	1    10850 1900
 	0    1    1    0   
 $EndComp
-Text Label 750  3300 0    60   ~ 12
-TXD
-Text Label 575  3200 0    60   ~ 12
-RXD
+Text Label 600  3300 0    60   ~ 12
+ESP_TXD
+Text Label 500  3200 0    60   ~ 12
+ESP_RXD
 $Comp
 L +3.3V #PWR027
 U 1 1 5792FC67
@@ -1128,11 +1128,11 @@ Wire Wire Line
 	9675 775  10225 775 
 Connection ~ 9675 775 
 Wire Wire Line
-	10575 1400 10825 1400
+	10575 1400 10900 1400
 Wire Wire Line
-	10575 1500 10825 1500
+	10575 1500 10875 1500
 Wire Wire Line
-	1100 3300 750  3300
+	600  3300 1100 3300
 Wire Wire Line
 	6900 4000 7400 4000
 Wire Wire Line
@@ -1142,7 +1142,7 @@ Wire Wire Line
 Wire Wire Line
 	10650 1900 10575 1900
 Wire Wire Line
-	575  3200 1100 3200
+	500  3200 1100 3200
 Wire Wire Line
 	3800 4500 4100 4500
 Connection ~ 3900 4500
