@@ -1,4 +1,4 @@
-update=22/05/2015 07:44:53
+update=Thứ ba, 09 Tháng tám Năm 2016 22:19:12 ICT
 version=1
 last_client=kicad
 [general]
@@ -60,3 +60,4 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
+LibName30=lib/ESP8266.3dshapes/ESP8266
