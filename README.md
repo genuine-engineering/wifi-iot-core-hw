@@ -1,4 +1,4 @@
-# Information in this iot-core project
+# iot-core-hw
 
 IoT Core hardware combined STM32 + ESP8266
 
