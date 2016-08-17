@@ -1,20 +1,22 @@
 # WIFI-IOT-CORE for IoT production project
 
-Wifi IoT Core hardware combined STM32 + ESP8266
+_Wifi IoT Core_ project is to combine STM32 + ESP8266.
 
-- ESP8266 is amazing wifi chip and cheap, however there are many hardware limitions such as: No USB, limit Analog interface, little bit I/O... 
-While applications developing on ESP8266 need to communicate USB-Serial. Therefore many modules in the world are added USB-TTL chip, in addition to develop then the value of little value in practice. This design uses the STM32 cheap, with USB interface, support for development, and many modules there is no shortage of ESP8266.
+- ESP8266 is an amazing but cheap wifi chip. However it has many limitions, such as: no USB, limited analog interface, few I/O etc, while applications which are developed on it often need USB-Serial communication. Therefore many ESP8266-based modules in the world are added USB-TTL chip. While this brings some value to developing work, the value is just little in practical use. The design in this _Wifi IoT Core_ project uses the cheap STM32, with USB interface, to ease development, and complements many other features which are missing in ESP8266.
 
-- The wifi IoT core project including:
-    + [wifi-iot-core-hw](https://github.com/genuine-engineering/wifi-iot-core-hw). Hardware with [KiCad](http://kicad-pcb.org/)
-    + [wifi-iot-core-stm32-fw](https://github.com/genuine-engineering/wifi-iot-core-stm32-fw). STM32-based Firmware [libopencm3](https://github.com/libopencm3/libopencm3)
-    + [wifi-iot-core-esp8266-fw](https://github.com/genuine-engineering/wifi-iot-core-esp8266-fw). ESP8266-based Firmware [Espressif SDK 2.0](https://espressif.com/en/support/download/sdks-demos)
+- The _Wifi IoT Core_ project including:
 
-# Wifi iot-core-hw
+    + [wifi-iot-core-hw](https://github.com/genuine-engineering/wifi-iot-core-hw). Hardware is designed with [KiCad](http://kicad-pcb.org/)
+    + [wifi-iot-core-stm32-fw](https://github.com/genuine-engineering/wifi-iot-core-stm32-fw). Firmware for STM32, based on [libopencm3](https://github.com/libopencm3/libopencm3)
+    + [wifi-iot-core-esp8266-fw](https://github.com/genuine-engineering/wifi-iot-core-esp8266-fw). Firmware for ESP8266, based on [Espressif SDK 2.0](https://espressif.com/en/support/download/sdks-demos)
+
+# Wifi-iot-core-hw
 ## Overview
-The hardware design by [KiCad](http://kicad-pcb.org/) software, includes two main components are ESP8266 and STM32F103C8T6
- - STM32 interface with USB, connect with ESP8266 via UART.
- - The pins of the STM32 and ESP8266 give out.
+The hardware is designed with [KiCad](http://kicad-pcb.org/) software. It includes two main components: ESP8266 and STM32F103C8T6.
+
+ - STM32 has USB interface and is connected with ESP8266 via UART.
+
+ - The output pins of the STM32 and ESP8266 are exposed for external use.
 
 ## Schematic
 
@@ -55,7 +57,7 @@ The hardware design by [KiCad](http://kicad-pcb.org/) software, includes two mai
 | D2                      | Led             | LEDs:LED_0805                            |
 
 
-## Gerber file 
+## Gerber file
 
 [Wifi IOT Core HW Gerber file](assets/gerber.zip)
 
