@@ -1,16 +1,16 @@
-# IOT-CORE for IoT production project
+# WIFI-IOT-CORE for IoT production project
 
-IoT Core hardware combined STM32 + ESP8266
+Wifi IoT Core hardware combined STM32 + ESP8266
 
 - ESP8266 is amazing wifi chip and cheap, however there are many hardware limitions such as: No USB, limit Analog interface, little bit I/O... 
 While applications developing on ESP8266 need to communicate USB-Serial. Therefore many modules in the world are added USB-TTL chip, in addition to develop then the value of little value in practice. This design uses the STM32 cheap, with USB interface, support for development, and many modules there is no shortage of ESP8266.
 
-- The IoT core project including:
-    + [iot-core-hw](https://github.com/genuine-engineering/iot-core-hw). Hardware with [KiCad](http://kicad-pcb.org/)
-    + [iot-core-stm32-fw](https://github.com/genuine-engineering/iot-core-stm32-fw). STM32-based Firmware [libopencm3](https://github.com/libopencm3/libopencm3)
-    + [iot-core-esp8266-fw](https://github.com/genuine-engineering/iot-core-esp8266-fw). ESP8266-based Firmware [Espressif SDK 2.0](https://espressif.com/en/support/download/sdks-demos)
+- The wifi IoT core project including:
+    + [wifi-iot-core-hw](https://github.com/genuine-engineering/wifi-iot-core-hw). Hardware with [KiCad](http://kicad-pcb.org/)
+    + [wifi-iot-core-stm32-fw](https://github.com/genuine-engineering/wifi-iot-core-stm32-fw). STM32-based Firmware [libopencm3](https://github.com/libopencm3/libopencm3)
+    + [wifi-iot-core-esp8266-fw](https://github.com/genuine-engineering/wifi-iot-core-esp8266-fw). ESP8266-based Firmware [Espressif SDK 2.0](https://espressif.com/en/support/download/sdks-demos)
 
-# iot-core-hw
+# Wifi iot-core-hw
 ## Overview
 The hardware design by [KiCad](http://kicad-pcb.org/) software, includes two main components are ESP8266 and STM32F103C8T6
  - STM32 interface with USB, connect with ESP8266 via UART.
@@ -18,15 +18,15 @@ The hardware design by [KiCad](http://kicad-pcb.org/) software, includes two mai
 
 ## Schematic
 
-[![IOT Core HW Schematic](assets/iot-core-hw-sch.png)](assets/iot-core-hw-sch.svg)
+[![Wifi IOT Core HW Schematic](assets/wifi-iot-core-hw-sch.png)](assets/wifi-iot-core-hw-sch.svg)
 
 ## PCB
 
-[![IOT Core HW PCB](assets/iot-core-hw-pcb.png)](assets/iot-core-hw-pcb.svg)
+[![Wifi IOT Core HW PCB](assets/wifi-iot-core-hw-pcb.png)](assets/wifi-iot-core-hw-pcb.svg)
 
 ## 3D
 
-[![IOT Core HW 3D](assets/iot-core-hw-3d.png)](assets/iot-core-3d.wrl.stl)
+[![Wifi IOT Core HW 3D](assets/wifi-iot-core-hw-3d.png)](assets/wifi-iot-core-3d.wrl.stl)
 ## BOM
 
 | Refs                    | Value           | Footprint                                |
@@ -57,7 +57,7 @@ The hardware design by [KiCad](http://kicad-pcb.org/) software, includes two mai
 
 ## Gerber file 
 
-[IOT Core HW Gerber file](assets/gerber.zip)
+[Wifi IOT Core HW Gerber file](assets/gerber.zip)
 
 ## CC-BY license
 

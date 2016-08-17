@@ -29,7 +29,8 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:ESP8266
-LIBS:iot-core-cache
+LIBS:stm32
+LIBS:wifi-iot-core-hw
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
