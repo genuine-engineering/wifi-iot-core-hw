@@ -1,0 +1,11 @@
+(module Mounting_Holes:MountingHole_3.5mm (layer F.Cu) (tedit 57B561E7)
+  (descr "Mounting Hole 3.5mm, no annular")
+  (tags "mounting hole 3.5mm no annular")
+  (fp_text reference P8 (at -0.0127 -1.016) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value CONN_01X01 (at 0 4.5) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad "" np_thru_hole circle (at 0 0) (size 2.5 2.5) (drill 2.5) (layers *.Cu *.Mask F.SilkS))
+)

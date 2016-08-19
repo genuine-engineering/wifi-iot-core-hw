@@ -1,4 +1,4 @@
-update=Thứ ba, 16 Tháng tám Năm 2016 23:11:01 ICT
+update=Thứ sáu, 19 Tháng tám Năm 2016 11:00:57 ICT
 version=1
 last_client=kicad
 [general]
@@ -60,7 +60,14 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=lib/ESP8266.3dshapes/ESP8266
-LibName31=lib/Buttons_Switches_SMD.3dshapes/device
-LibName32=lib/Housings_QFP:LQFP-48_7x7mm_Pitch0.3dshapes/stm32
-LibName33=wifi-iot-core-hw
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=assets/gerber/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
+ERC_TestSimilarLabels=1
