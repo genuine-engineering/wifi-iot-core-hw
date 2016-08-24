@@ -29,33 +29,38 @@ The hardware is designed with [KiCad](http://kicad-pcb.org/) software. It includ
 ## 3D
 
 [![Wifi IOT Core HW 3D](assets/wifi-iot-core-hw-3d.png)](assets/wifi-iot-core-3d.wrl.stl)
+
 ## BOM
 
-| Refs                    | Value           | Footprint                                |
-|-------------------------|-----------------|------------------------------------------|
-| Y1                      | 8MHz            | Crystal:HC49_sm                          |
-| C1,C5,C7,C8,C10-C13,C16 | 0.1uF           | Capacitors_SMD:C_0603                    |
-| R1,R5,R6                | 10k             | Resistors_SMD:R_0603                     |
-| R8                      | 0R              | Resistors_SMD:R_0603                     |
-| P3,P5                   | CONN_01X16      | Pin_Headers:Pin_Header_Straight_1x16     |
-| P6,P7                   | CONN_01X03      | Pin_Headers:Pin_Header_Straight_1x03     |
-| R7,R9-R13               | 10K             | Resistors_SMD:R_0603                     |
-| P1                      | USB             | w_conn_pc:conn_usb_B_micro_smd-2         |
-| R2,R4                   | 22              | Resistors_SMD:R_0603                     |
-| C14,C15                 | 10pF            | Capacitors_SMD:C_0603                    |
-| U3                      | ESP-12          | ESP8266:ESP-07v2-smd-16pin               |
-| C2,C4,C17               | 10uF-50v        | Capacitors_SMD:C_1210                    |
-| D1                      | Led 0805        | LEDs:LED_0805                            |
-| U1                      | LP2985LV        | TO_SOT_Packages_SMD:SOT-23-5             |
-| R3                      | 1.5K            | Resistors_SMD:R_0603                     |
-| P4                      | CONN_01X04      | Pin_Headers:Pin_Header_Straight_1x04     |
-| U2                      | STM32F103C8Tx   | Housings_QFP:LQFP-48_7x7mm_Pitch0.5mm    |
-| P8-P11                  | CONN_01X01      | Mounting_Holes:MountingHole_3.5mm        |
-| SW2                     | SW_PUSH_SMALL_H | Buttons_Switches_SMD:SW_SPST_B3U-1000P-B |
-| C3,C6,C9                | 1uF             | Capacitors_SMD:C_0603                    |
-| SW1                     | RST             | Buttons_Switches_SMD:SW_SPST_B3U-1000P-B |
-| D2                      | Led             | LEDs:LED_0805                            |
-
+| Refs                      | Value           | Footprint                            |
+|---------------------------|-----------------|--------------------------------------|
+| C7                        | 15pf            | lib:C_0603                           |
+| C1,C9-C12,C15,C17,C19,C20 | 0.1uF           | lib:C_0603                           |
+| C4,C5                     | 10pF            | lib:C_0603                           |
+| C6                        | 15pF            | lib:C_0603                           |
+| C16,C18                   | 1uF             | lib:C_0603                           |
+| C3                        | 100nF           | lib:C_0603                           |
+| C21                       | 10nF            | lib:C_0603                           |
+| C2,C13,C14                | 10uF-50v        | Capacitors_SMD:C_1210                |
+| C8                        | 470pF           | lib:C_0603                           |
+| R11,R12                   | 22              | lib:R_0603                           |
+| R10                       | 1.5K            | lib:R_0603                           |
+| R2-R5                     | 10K             | lib:R_0603                           |
+| R9                        | 0R              | lib:R_0603                           |
+| R1,R6-R8,R13              | 10k             | lib:R_0603                           |
+| SW1                       | RST             | lib:SW_SPST_B3U-1000P-B              |
+| SW2                       | SW_PUSH_SMALL_H | lib:SW_SPST_B3U-1000P-B              |
+| U1                        | ESP-07v2        | lib:ESP-07v2-smd-16pin               |
+| U2                        | STM32F103C8Tx   | lib:LQFP-48_Pin1.7x0.3mm_Pitch0.5mm  |
+| U3                        | LP2985LV        | TO_SOT_Packages_SMD:SOT-23-5         |
+| P1,P2                     | CONN_01X20      | Pin_Headers:Pin_Header_Straight_1x20 |
+| P7                        | CONN_01X04      | Pin_Headers:Pin_Header_Straight_1x04 |
+| P3-P6                     | CONN_01X01      | lib:MountingHole_2mm                 |
+| P8                        | USB             | lib:Micro_usb_B_smd                  |
+| Y2                        | 32.687          | lib:crystal_smd_32.768_2Pin          |
+| Y1                        | 8MHz            | lib:Crystal_SMD_5032_4Pads           |
+| D2                        | Led             | LEDs:LED_0805                        |
+| D1                        | Led GPIO16      | LEDs:LED_0805                        |
 
 ## Gerber file
 
