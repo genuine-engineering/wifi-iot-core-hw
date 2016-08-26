@@ -1020,13 +1020,13 @@ Text GLabel 1775 3275 0    60   Input ~ 0
 PB7
 Text GLabel 8850 4700 0    60   Input ~ 0
 PB10
-Text GLabel 10150 4600 0    60   Input ~ 0
+Text GLabel 10150 4700 0    60   Input ~ 0
 PB12
-Text GLabel 10150 4500 0    60   Input ~ 0
+Text GLabel 10150 4600 0    60   Input ~ 0
 PB13
-Text GLabel 10150 4400 0    60   Input ~ 0
+Text GLabel 10150 4500 0    60   Input ~ 0
 PB14
-Text GLabel 10150 4300 0    60   Input ~ 0
+Text GLabel 10150 4400 0    60   Input ~ 0
 PB15
 Text GLabel 10150 4200 0    60   Input ~ 0
 PB3
@@ -1129,12 +1129,12 @@ ESP_TXD
 $Comp
 L GNDREF #PWR037
 U 1 1 57B64043
-P 10150 4700
-F 0 "#PWR037" H 10150 4450 50  0001 C CNN
-F 1 "GNDREF" V 10155 4572 50  0000 R CNN
-F 2 "" H 10150 4700 50  0000 C CNN
-F 3 "" H 10150 4700 50  0000 C CNN
-	1    10150 4700
+P 10150 4800
+F 0 "#PWR037" H 10150 4550 50  0001 C CNN
+F 1 "GNDREF" V 10155 4672 50  0000 R CNN
+F 2 "" H 10150 4800 50  0000 C CNN
+F 3 "" H 10150 4800 50  0000 C CNN
+	1    10150 4800
 	0    1    1    0   
 $EndComp
 $Comp
@@ -1358,8 +1358,6 @@ Wire Wire Line
 Wire Wire Line
 	9725 3300 10150 3300
 Wire Wire Line
-	8850 3400 8850 3300
-Wire Wire Line
 	1000 1875 825  1875
 Wire Wire Line
 	825  1475 825  1925
@@ -1380,15 +1378,9 @@ Wire Wire Line
 Text Label 6200 5600 2    60   ~ 0
 GPIO16
 Wire Wire Line
-	7575 3375 8200 3375
-Text Label 8200 3375 2    60   ~ 0
-GPIO16
-Wire Wire Line
 	8452 1783 8052 1783
 Text Label 8052 1783 0    60   ~ 0
 GPIO16
-Wire Wire Line
-	10150 4800 10150 4700
 Wire Wire Line
 	10150 4900 10150 5000
 $Comp
@@ -1455,4 +1447,12 @@ Wire Wire Line
 Wire Wire Line
 	2450 5200 2450 5175
 Connection ~ 2450 5175
+Text GLabel 7575 3375 2    60   Input ~ 0
+PA8
+Text GLabel 10150 4300 0    60   Input ~ 0
+PA8
+Wire Wire Line
+	8850 3400 8470 3400
+Text Label 8470 3400 0    60   ~ 0
+GPIO16
 $EndSCHEMATC
